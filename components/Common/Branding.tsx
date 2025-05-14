@@ -23,11 +23,11 @@ const Branding = ({ size = 'md', className = '' }: BrandingProps) => {
 
   return (
     <div className={`flex items-center ${sizeClasses[size]} ${className}`}>
-      <MessageSquareTextIcon 
-        size={iconSizes[size]} 
-        className="text-primary" 
+      <MessageSquareTextIcon
+        size={iconSizes[size]}
+        className="text-primary"
       />
-      <span className="font-bold">boltt.new</span>
+      <span className="font-bold">triz.bot</span>
     </div>
   );
 };

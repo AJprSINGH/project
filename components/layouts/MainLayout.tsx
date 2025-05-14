@@ -47,7 +47,7 @@ const MainLayout = ({ children }: MainLayoutProps) => {
         <footer className="border-t py-4 bg-background">
           <div className="container flex flex-col sm:flex-row justify-between items-center">
             <div className="text-sm text-muted-foreground">
-              © 2025 boltt.new. All rights reserved.
+              © 2025 triz.bot. All rights reserved.
             </div>
             <div className="flex gap-4 mt-2 sm:mt-0">
               <a

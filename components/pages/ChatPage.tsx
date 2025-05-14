@@ -21,7 +21,7 @@ const ChatPage = () => {
     changePersona,
     clearMessages,
   } = useChatContext();
-  
+
   const [showSettings, setShowSettings] = useState(false);
 
   return (
@@ -30,10 +30,10 @@ const ChatPage = () => {
         {messages.length === 0 && (
           <WelcomeMessage persona={persona} className="mb-4" />
         )}
-        
+
         <Card className="shadow-md border rounded-lg overflow-hidden">
           <CardHeader className="flex flex-row justify-between items-center space-y-0 gap-4 border-b bg-muted/30 pb-4">
-            <CardTitle className="text-xl font-semibold">Chat with boltt.new</CardTitle>
+            <CardTitle className="text-xl font-semibold">Chat with triz.bot</CardTitle>
             <div className="flex items-center gap-2">
               <Button
                 variant="outline"
